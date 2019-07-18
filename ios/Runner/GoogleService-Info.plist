@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>245399558493-vb5qontre91bcbn282kut9403frjgsvl.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.245399558493-vb5qontre91bcbn282kut9403frjgsvl</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDsv_asWlY3v3Q2GF4Px0Zd5ePyOAkrVrI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>245399558493</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.toberenamed.geo</string>
+	<key>PROJECT_ID</key>
+	<string>toberenamed-edd8b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>toberenamed-edd8b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:245399558493:ios:202deb047ec81c00</string>
+	<key>DATABASE_URL</key>
+	<string>https://toberenamed-edd8b.firebaseio.com</string>
+</dict>
+</plist>
