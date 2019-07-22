@@ -29,6 +29,7 @@ dependencies:
   flutter_bloc: ^0.19.0
   flutter_secure_storage: ^3.2.1+1
   google_sign_in: ^4.0.4
+  google_maps_flutter: ^0.5.19+2
 
 dev_dependencies:
   flutter_test:

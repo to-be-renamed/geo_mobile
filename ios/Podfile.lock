@@ -2,9 +2,17 @@ PODS:
   - Flutter (1.0.0)
   - flutter_secure_storage (3.2.0):
     - Flutter
+  - google_maps_flutter (0.0.1):
+    - Flutter
+    - GoogleMaps
   - google_sign_in (0.0.1):
     - Flutter
     - GoogleSignIn (~> 4.0)
+  - GoogleMaps (2.7.0):
+    - GoogleMaps/Maps (= 2.7.0)
+  - GoogleMaps/Base (2.7.0)
+  - GoogleMaps/Maps (2.7.0):
+    - GoogleMaps/Base
   - GoogleSignIn (4.4.0):
     - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
     - "GoogleToolboxForMac/NSString+URLArguments (~> 2.1)"
@@ -22,10 +30,12 @@ PODS:
 DEPENDENCIES:
   - Flutter (from `.symlinks/flutter/ios`)
   - flutter_secure_storage (from `.symlinks/plugins/flutter_secure_storage/ios`)
+  - google_maps_flutter (from `.symlinks/plugins/google_maps_flutter/ios`)
   - google_sign_in (from `.symlinks/plugins/google_sign_in/ios`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - GoogleMaps
     - GoogleSignIn
     - GoogleToolboxForMac
     - GTMSessionFetcher
@@ -35,13 +45,17 @@ EXTERNAL SOURCES:
     :path: ".symlinks/flutter/ios"
   flutter_secure_storage:
     :path: ".symlinks/plugins/flutter_secure_storage/ios"
+  google_maps_flutter:
+    :path: ".symlinks/plugins/google_maps_flutter/ios"
   google_sign_in:
     :path: ".symlinks/plugins/google_sign_in/ios"
 
 SPEC CHECKSUMS:
   Flutter: 9d0fac939486c9aba2809b7982dfdbb47a7b0296
   flutter_secure_storage: dbcc8ff35d99569c3a4d3b483afa3339416c1a78
+  google_maps_flutter: a09053b3f7a9f1456924d46e34528acc7aa5e0b9
   google_sign_in: cbeb57b96679823d14df6b2240b629b983a42d79
+  GoogleMaps: f79af95cb24d869457b1f961c93d3ce8b2f3b848
   GoogleSignIn: 7ff245e1a7b26d379099d3243a562f5747e23d39
   GoogleToolboxForMac: ff31605b7d66400dcec09bed5861689aebadda4d
   GTMSessionFetcher: 32aeca0aa144acea523e1c8e053089dec2cb98ca

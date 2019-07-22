@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:geo_mobile/blocs/blocs.dart';
 import 'package:geo_mobile/screens/home/home.dart';
-import 'package:geo_mobile/widgets/widgets.dart';
 
 class HomeScreen extends StatelessWidget {
   @override
@@ -77,7 +76,8 @@ class _HomeScreenTabController extends StatelessWidget {
               );
             },
           ),
-          body: CustomTabBarView(
+          body: TabBarView(
+            physics: NeverScrollableScrollPhysics(),
             children: <Widget>[
               HomeTab(),
               SearchTab(),
