@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "245399558493",
+    "firebase_url": "https://toberenamed-edd8b.firebaseio.com",
+    "project_id": "toberenamed-edd8b",
+    "storage_bucket": "toberenamed-edd8b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245399558493:android:b460fab5df893707",
+        "android_client_info": {
+          "package_name": "com.toberenamed.geo_mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "245399558493-3bvb9lcimlkva934euhh9ii37set9c74.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.toberenamed.geo_mobile",
+            "certificate_hash": "8818547a328969273cff8fc1f71ce498bc862680"
+          }
+        },
+        {
+          "client_id": "245399558493-d78atjk0hhgs8v32kuf8tl3sgf1gfbh0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdnaWYupH2_mGg16uUvIz-XVXU3KD1HpQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "245399558493-d78atjk0hhgs8v32kuf8tl3sgf1gfbh0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "245399558493-vb5qontre91bcbn282kut9403frjgsvl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.toberenamed.geo"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
