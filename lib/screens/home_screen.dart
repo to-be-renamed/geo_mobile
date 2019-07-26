@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:geo_mobile/blocs/blocs.dart';
 import 'package:geo_mobile/screens/home/home.dart';
+import 'package:global_configuration/global_configuration.dart';
 
 class HomeScreen extends StatelessWidget {
   @override
@@ -27,7 +28,8 @@ class _HomeScreenTabController extends StatelessWidget {
             bloc: authBloc,
             listener: (context, state) {
               if (state is AuthSignedOutState) {
-                Navigator.pushNamedAndRemoveUntil(context, "/signed-out", (_) => false);
+                Navigator.pushNamedAndRemoveUntil(
+                    context, "/signed-out", (_) => false);
               }
             },
           ),
@@ -42,7 +44,7 @@ class _HomeScreenTabController extends StatelessWidget {
         ],
         child: Scaffold(
           appBar: AppBar(
-            title: Text("ToBeRenamed"),
+            title: Text(GlobalConfiguration().get("appName")),
           ),
           bottomNavigationBar: BlocBuilder(
             bloc: homeBloc,
@@ -72,7 +74,8 @@ class _HomeScreenTabController extends StatelessWidget {
                   )
                 ],
                 showUnselectedLabels: false,
-                onTap: (tabIndex) => homeBloc.dispatch(HomeTabSelectEvent(tabIndex)),
+                onTap: (tabIndex) =>
+                    homeBloc.dispatch(HomeTabSelectEvent(tabIndex)),
               );
             },
           ),
